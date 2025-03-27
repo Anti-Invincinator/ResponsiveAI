@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif; /* has to be comic sans! */
+      background-color: #f3f3f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    .info h2 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .info a {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="info">
+      <h2>John Doe</h2>
+      <a href="https://giphy.com/gifs/minions-despicableme-despicableme4-despicablememovie-S2IfEQqgWc0AH4r6Al" target="_blank">example.com</a>
+    </div>
+    <img src="https://i.pravatar.cc/100" alt="Avatar" class="avatar">
+  </div>
+
+</body>
+</html>
